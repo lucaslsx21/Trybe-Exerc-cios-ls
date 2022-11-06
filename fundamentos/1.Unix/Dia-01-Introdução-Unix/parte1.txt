@@ -1,0 +1,256 @@
+UNIX & BASH ⇒ Unix(sistema operacional portável) & Bash(the borne - again shell - interpreta linguagem) = é uma
+linguagem de programação expressiva capaz de realizar uma variedade de tarefas, economizando tempo de esforço;
+
+PERGUNTAS Unix/Bash:
+
+1. Quais são seus principais componentes?
+2. Quais são suas variações?
+3. Arquivos e processos, o que são?
+4. Qual sua estrutura de diretórias?
+5. O que é terminal?
+6. Comandos executados no Shell?
+
+O que é o Unix, Kernel e Shell
+Você já deve ter se perguntado: por qual motivo fazemos uso da linha de comando se podemos resolver demandas em poucos
+cliques através da interface gráfica?
+
+De forma resumida, podemos dizer que ela é simples, estável, rápida, eficiente e exige baixíssimo poder de hardware.
+Pode soar estranho dizer que ela é simples, não é? Mas sim, ela é. De modo geral, a linha de comando não fazia faz parte
+do seu dia a dia e, por esse motivo, pode parecer complicado. No entanto, a partir de agora, você vai conhecer em
+detalhes diversas vantagens e praticidades dessa poderosa ferramenta, que te ajudará a ser uma pessoa mais produtiva e
+mais eficiente na sua formação como pessoa desenvolvedora.
+
+Lembre-se: utilizar a linha de comando não te impede de também utilizar a interface gráfica. Com o tempo e a prática,
+você encontrará a forma de trabalho que te proporciona a melhor experiência.
+
+Observação: Há uma diferença no nome dos diretórios que guardam os arquivos da pessoa usuária no Mac e no Linux. No
+video está sendo usado o Mac, e o diretório usado é “users”; já no Linux, esse diretório seria “home”.
+
+https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/27b3478b-478d-4670-9be8-0106db77ece0/day/e1567f20-ee53-41b4-9054-b2d026a5af8e/lesson/5102fcb9-f820-48e1-964d-eadfe8d85e01
+
+https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/27b3478b-478d-4670-9be8-0106db77ece0/day/e1567f20-ee53-41b4-9054-b2d026a5af8e/lesson/08b5311f-f36e-4e30-9688-a52b4a43f9e1
+
+Exercícios - criação de arquivos e diretórios
+Dica: Para criação de arquivos vazios, você pode utilizar o comando touch nome-do-arquivo.extensao.
+
+Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu, crie um diretório chamado unix_tests e navegue até ele.
+Crie um arquivo de texto com o nome trybe.txt.
+Crie uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+Renomeie o arquivo trybe.txt.
+Dentro de unix_tests, crie um novo diretório chamado backup.
+Mova o arquivo trybe_backup.txt para o diretório backup.
+Dentro de unix_tests, crie um novo diretório chamado backup2.
+Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+Apague a pasta backup.
+Renomeie a pasta backup2 para backup.
+Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+Apague o diretório backup.
+Limpe o terminal.
+
+Solução:
+Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
+
+  mkdir unix_tests
+  cd unix_tests
+
+Solução:
+Crie um arquivo de texto com o nome trybe.txt.
+Copiar
+  touch trybe.txt
+
+Solução:
+Crie uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+Copiar
+  cp trybe.txt trybe_backup.txt
+
+Solução:
+Renomeie o arquivo trybe.txt.
+Copiar
+  mv trybe.txt outro_nome.txt
+
+Solução:
+Dentro de unix_tests, crie um novo diretório chamado backup.
+Copiar
+  mkdir backup
+
+Solução:
+Mova o arquivo trybe_backup.txt para o diretório backup.
+Copiar
+  mv trybe_backup.txt backup
+
+Solução:
+Dentro de unix_tests, crie um novo diretório chamado backup2.
+Copiar
+  mkdir backup2
+
+Solução:
+Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+Copiar
+  mv backup/trybe_backup.txt backup2
+
+Solução:
+Apague a pasta backup.
+Copiar
+  rmdir backup
+
+Solução:
+Renomeie a pasta backup2 para backup.
+Copiar
+  mv backup2 backup
+
+Solução:
+Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+Copiar
+  pwd
+  ls -l .
+
+Solução:
+Apague o diretório backup.
+Copiar
+  rm -rd backup
+
+Solução:
+Limpe o terminal.
+Copiar
+  clear
+
+Para os próximos dois exercícios, crie, de forma manual, na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+
+Copiar
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+
+Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+Mostre na tela as 4 últimas skills do arquivo skills.txt.
+Apague todos os arquivos que terminem em .txt.
+
+Solução:
+Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+Copiar
+  head -n 5 skills.txt
+
+Caso você não tenha conseguido fazer esse exercício, reforce seus estudos sobre comandos do shell, manual e flags.
+
+Solução:
+Mostre na tela as 4 últimas skills do arquivo skills.txt.
+Copiar
+  tail -n 4 skills.txt
+
+Solução:
+Apague todos os arquivos que terminem em .txt.
+Copiar
+  rm *.txt
+
+
+Caso você não tenha conseguido fazer esse exercício, reforce seus estudos sobre comandos do shell, manual e flags.
+
+Solução
+
+Mostre na tela as 4 últimas skills do arquivo skills.txt.
+Copiar
+  tail -n 4 skills.txt
+Solução
+
+Apague todos os arquivos que terminem em .txt.
+Copiar
+  rm *.txt
+
+1- Crie um novo diretório chamado unix_tests_search e entre nele. 2- Na pasta unix_tests_search, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl
+
+mkdir unix_tests_search
+cd unix_tests_search
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+Mostre todo o conteúdo do arquivo countries.txt na tela.
+Mostre o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+Busque por Brazil no countries.txt.
+Busque novamente por brazil, mas agora utilizando o lower case.
+Crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.
+Busque pelas frases que não contenham a palavra fox.
+Conte o número de palavras do arquivo phrases.txt.
+Conte o número de linhas do arquivo phrases.txt.
+Crie os arquivos empty.tbt e empty.pdf.
+Liste todos os arquivos do diretório unix_tests_search.
+Liste todos os arquivos que terminem com txt.
+Liste todos os arquivos que terminem com tbt ou txt.
+Acesse o manual do comando ls.
+
+Solução:
+Mostre todo o conteúdo do arquivo countries.txt na tela.
+Copiar
+  cat countries.txt
+
+Solução:
+Mostre o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+Copiar
+  less countries.txt
+  # ou...
+  more countries.txt
+
+Solução:
+Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+Copiar
+  less countries.txt
+  # ou...
+  more countries.txt
+  # agora que você está dentro do arquivo, digite uma barra `/` e em seguida a palavra Zambia
+  # /Zambia
+  # pressione "Enter" para sair
+
+Solução:
+Busque por Brazil no countries.txt.
+Copiar
+  grep Brazil countries.txt
+
+Solução:
+Busque novamente por brazil, mas agora utilizando o lower case.
+Copiar
+  grep -i brazil countries.txt
+
+Solução:
+Busque pelas frases que não contenham a palavra fox.
+Copiar
+  grep -v fox phrases.txt
+
+Solução:
+Conte o número de palavras do arquivo phrases.txt.
+Copiar
+  wc -w phrases.txt
+
+Solução:
+Conte o número de linhas do arquivo phrases.txt.
+Copiar
+  wc -l phrases.txt
+
+Solução:
+Crie os arquivos empty.tbt e empty.pdf.
+Copiar
+  touch empty.tbt
+  touch empty.pdf
+
+Solução:
+Liste todos os arquivos do diretório unix_tests_search.
+Copiar
+  ls -l
+
+Solução:
+Liste todos os arquivos que terminem com txt.
+Copiar
+  ls -l *txt
+
+Solução:
+Liste todos os arquivos que terminem com tbt ou txt.
+Copiar
+  ls -l *t?t
+
+Solução:
+Acesse o manual do comando ls.
+Copiar
+  man ls

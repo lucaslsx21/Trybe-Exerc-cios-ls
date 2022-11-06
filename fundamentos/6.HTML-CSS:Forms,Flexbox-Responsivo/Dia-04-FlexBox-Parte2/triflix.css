@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.header-container {
+    background-color: #5C687C;
+    display: flex;
+}
+/* Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px. Após aplicar as propriedades,
+o header deverá estar similar à imagem abaixo: usei o flex-basis */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 268px;
+}
+/* Adicione uma propriedade Flexbox que faça o container do menu crescer,
+quando houver espaço disponível. Após aplicar a propriedade,
+o header deverá estar similar à imagem abaixo: usei order */
+/* Utilize a propriedade align-self no elemento correto para que o header da página tenha o seguinte comportamento: usei flex-grow */
+.menu-container {
+    display: flex;
+    flex-basis: 500px;
+    order: 1;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar à imagem abaixo: adicionei flex-basis e passei 700px */
+/* Aplique uma propriedade com o valor 10 que expanda o container de filmes. Deve ficar similar à imagem abaixo: usei o flex-grow */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 700px;
+    flex-grow: 10;
+}
+
+.nperca, .massiti {
+    border-style: double;
+    background-color: rgb(175, 238, 172);
+    border-width: 15px;
+}
+
+.movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/* Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar à imagem abaixo: adicionei flex-basis passando 16% */
+/* Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe todo o espaço em branco. Deve ficar similar à imagem abaixo: usei flex-grow */
+.card-container div {
+    align-items: center;
+    background-color: #02460b;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    flex-basis: 16%;
+    height: 150px;
+    flex-grow: 1;
+}
+/* Aplique uma base de 350px para seu container aside. Deverá ficar similar à imagem abaixo: usei o flex-basis */
+/* Aplique um alinhamento para centralizar e outro para expandir. Seu aside deve apresentar o seguinte comportamento: usei flex-grow */
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-basis: 350px;
+    flex-grow: 1;
+    border-style: double;
+    background-color: rgb(214, 234, 217);
+    border-width: 15px;
+    color: mediumseagreen;
+}
+
+.aside-container h3,
+h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+}

@@ -1,0 +1,60 @@
+.box {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 30%;
+}
+/* Teste as possibilidades (row, column, row-reverse e column-reverse) para a propriedade flex-direction. */
+/* .box-container {
+    background-color: #0fa36b;
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-direction: column-reverse;
+} */
+
+/* Teste as possibilidades (wrap e nowrap) para a propriedade flex-wrap. */
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-wrap: nowrap;
+} */
+
+/* Teste as possibilidades para a propriedade flex-flow. */
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+/* .box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+} */
