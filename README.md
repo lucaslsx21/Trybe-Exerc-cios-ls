@@ -6,65 +6,63 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 # Fundamentos do Desenvolvimento Web hourglass_flowing_sand
-
 ## Seção 1: Introdução - Unix & Shell
- - [ :white_check_mark: ] Dia 1: Unix & Shell- Part 1 
- - [ :white_check_mark: ] Dia 2: Unix & Shell- Part 2
+ - [ :heavy_check_mark: ] Dia 1: Unix & Shell- Part 1 
+ - [ :heavy_check_mark: ] Dia 2: Unix & Shell- Part 2
  
 ## Seção 2: Git & GitHub
- - [ ] Dia 1: O que é e para que serve?
- - [ ] Dia 2: Entendendo os comandos
- - [ ] Dia 3: Internet - Entendendo como ela funciona
+ - [ :heavy_check_mark: ] Dia 1: O que é e para que serve?
+ - [ :heavy_check_mark: ] Dia 2: Entendendo os comandos
+ - [ :heavy_check_mark: ] Dia 3: Internet - Entendendo como ela funciona
 
 ## Seção 3: Introdução - HTML & CSS
- - [ ] Dia 1: HTML & CSS - Estruturas de página
- - [ ] Dia 2: HTML & CSS - Primeiros passos em CSS
- - [ ] Dia 3: HTML & CSS - Seletores e posicionamento
- - [ ] Dia 4: HTML Semântico
- - [ ] Dia 5: Projeto - Lessons Learned
+ - [ :heavy_check_mark: ] Dia 1: HTML & CSS - Estruturas de página
+ - [ :heavy_check_mark: ] Dia 2: HTML & CSS - Primeiros passos em CSS
+ - [ :heavy_check_mark: ] Dia 3: HTML & CSS - Seletores e posicionamento
+ - [ :heavy_check_mark: ] Dia 4: HTML Semântico
+ - [ :heavy_check_mark: ] Dia 5: Projeto - Lessons Learned
 
 ## Seção 4: Introdução - JavaScript
- - [ ] Dia 1: JavaScript - Primeiros passos
- - [ ] Dia 2: JavaScript - Array e loop For
- - [ ] Dia 3: JavaScript - Lógica de Programação e Algoritmos
- - [ ] Dia 4: JavaScript - Objetos e funções
- - [ ] Dia 5: Projeto - Playground Functions
+ - [ :heavy_check_mark: ] Dia 1: JavaScript - Primeiros passos
+ - [ :heavy_check_mark: ] Dia 2: JavaScript - Array e loop For
+ - [ :heavy_check_mark: ] Dia 3: JavaScript - Lógica de Programação e Algoritmos
+ - [ :heavy_check_mark: ] Dia 4: JavaScript - Objetos e funções
+ - [ :heavy_check_mark: ] Dia 5: Projeto - Playground Functions
 
 ## Seção 5: Introdução - JavaScript - Projetos
- - [ ] Dia 1: JavaScript - DOM e seletores
- - [ ] Dia 2: JavaScript - Trabalhando com elementos
- - [ ] Dia 3: JavaScript - Eventos
- - [ ] Dia 4: JavaScript - Web Storage
- - [ ] Dia 5: Projeto - Arte com Pixels
- - [ ] Dia 6: Projeto - Bônus - Lista de tarefas
- - [ ] Dia 7: Projeto - Bônus - Meme Generator
- - [ ] Dia 8: Projeto - Bônus - Adivinhe a Cor
- - [ ] Dia 1: Projeto - Bônus - Carta Misteriosa
+ - [ :heavy_check_mark: ] Dia 1: JavaScript - DOM e seletores
+ - [ :heavy_check_mark: ] Dia 2: JavaScript - Trabalhando com elementos
+ - [ :heavy_check_mark: ] Dia 3: JavaScript - Eventos
+ - [ :heavy_check_mark: ] Dia 4: JavaScript - Web Storage
+ - [ :heavy_check_mark: ] Dia 5: Projeto - Arte com Pixels
+ - [ :heavy_check_mark: ] Dia 6: Projeto - Bônus - Lista de tarefas
+ - [ :heavy_check_mark: ] Dia 7: Projeto - Bônus - Meme Generator
+ - [ :heavy_check_mark: ] Dia 8: Projeto - Bônus - Adivinhe a Cor
+ - [ :heavy_check_mark: ] Dia 1: Projeto - Bônus - Carta Misteriosa
  
 ## Seção 6: HTML & CSS avançado
- - [ ] Dia 1: HTML & CSS - Forms
- - [ ] Dia 2: Bibliotecas JavaScript e Frameworks CSS
- - [ ] Dia 3: CSS Flexbox - Part 1
- - [ ] Dia 4: CSS Flexbox - Part 2
- - [ ] Dia 5: CSS Responsivo - Mobile First
- - [ ] Dia 6: Projeto - Trybewarts
+ - [ :heavy_check_mark: ] Dia 1: HTML & CSS - Forms
+ - [ :heavy_check_mark: ] Dia 2: Bibliotecas JavaScript e Frameworks CSS
+ - [ :heavy_check_mark: ] Dia 3: CSS Flexbox - Part 1
+ - [ :heavy_check_mark: ] Dia 4: CSS Flexbox - Part 2
+ - [ :heavy_check_mark: ] Dia 5: CSS Responsivo - Mobile First
+ - [ :heavy_check_mark: ] Dia 6: Projeto - Trybewarts
  
 ## Seção 7: JavaScript ES6 & Testes Unitários
- - [ ] Dia 1: JavaScript ES6 - let, const, arrow functions e template literals
- - [ ] Dia 2: JavaScript ES6 - Fluxo de exceção e Objetos
- - [ ] Dia 3: Primeiros passos em Jest
- - [ ] Dia 4: Projeto - JavaScript Testes Unitários
+ - [ :heavy_check_mark: ] Dia 1: JavaScript ES6 - let, const, arrow functions e template literals
+ - [ :heavy_check_mark: ] Dia 2: JavaScript ES6 - Fluxo de exceção e Objetos
+ - [ :heavy_check_mark: ] Dia 3: Primeiros passos em Jest
+ - [ :heavy_check_mark: ] Dia 4: Projeto - JavaScript Testes Unitários
  
 ## Seção 8: Higher Order Functions do JavaScript ES6
- - [ ] Dia 1: Introdução a Higher Order Functions
- - [ ] Dia 2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
- - [ ] Dia 3: JavaScript ES6 - Higher Order Functions - map e filter
- - [ ] Dia 4: JavaScript ES6 - Higher Order Functions- reduce
- - [ ] Dia 5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
- - [ ] Dia 6: Projeto - Zoo functions
+ - [ :heavy_check_mark: ] Dia 1: Introdução a Higher Order Functions
+ - [ :heavy_check_mark: ] Dia 2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+ - [ :heavy_check_mark: ] Dia 3: JavaScript ES6 - Higher Order Functions - map e filter
+ - [ :heavy_check_mark: ] Dia 4: JavaScript ES6 - Higher Order Functions- reduce
+ - [ :heavy_check_mark: ] Dia 5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
+ - [ :heavy_check_mark: ] Dia 6: Projeto - Zoo functions
 
 # Desenvolvimento Front-end hourglass_flowing_sand
-
 ## Seção 1: JavaScript e Testes Assíncronos
  - [ ] Dia 1: JavaScript Assíncrono e Callbacks
  - [ ] Dia 2: JavaScript Assíncrono - Fetch API e async/await
@@ -117,7 +115,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  - [ ] Dia 1: Projeto - App de Receitas
 
 # Desenvolvimento Back-end hourglass_flowing_sand
-
 ## Seção 1: Docker: Utilizando Containers
  - [ ] Dia 1: Utilizando Containers - Docker
  - [ ] Dia 2: Manipulando Imagens no Dockers
@@ -201,7 +198,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  - [ ] Dia 2: Dia 2
 
 # Ciência da Computação hourglass_flowing_sand
-
 ## Seção 1 - Introdução à Python
  - [ ] Dia 1: Aprendendo Python
  - [ ] Dia 2: Entrada e Saída de Dados
