@@ -62,7 +62,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  - [ :heavy_check_mark: ] Dia 5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
  - [ :heavy_check_mark: ] Dia 6: Projeto - Zoo functions
 
-# Desenvolvimento Front-end hourglass_flowing_sand
+# Desenvolvimento Front-end hourglass_flowing_sand :hourglass_flowing_sand:
 ## Seção 1: JavaScript e Testes Assíncronos
  - [ ] Dia 1: JavaScript Assíncrono e Callbacks
  - [ ] Dia 2: JavaScript Assíncrono - Fetch API e async/await
@@ -114,7 +114,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Seção 10: Projeto App de Receitas
  - [ ] Dia 1: Projeto - App de Receitas
 
-# Desenvolvimento Back-end hourglass_flowing_sand
+# Desenvolvimento Back-end hourglass_flowing_sand :hourglass_flowing_sand:
 ## Seção 1: Docker: Utilizando Containers
  - [ ] Dia 1: Utilizando Containers - Docker
  - [ ] Dia 2: Manipulando Imagens no Dockers
@@ -197,7 +197,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  - [ ] Dia 1: Dia 1 - VPS
  - [ ] Dia 2: Dia 2
 
-# Ciência da Computação hourglass_flowing_sand
+# Ciência da Computação hourglass_flowing_sand :hourglass_flowing_sand:
 ## Seção 1 - Introdução à Python
  - [ ] Dia 1: Aprendendo Python
  - [ ] Dia 2: Entrada e Saída de Dados
