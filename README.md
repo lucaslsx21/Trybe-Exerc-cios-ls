@@ -8,8 +8,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 # Fundamentos do Desenvolvimento Web hourglass_flowing_sand
 
 ## Seção 1: Introdução - Unix & Shell
- - [ ] Dia 1: Unix & Shell- Part 1 :white_check_mark:
- - [ ] Dia 2: Unix & Shell- Part 2
+ - [ :white_check_mark: ] Dia 1: Unix & Shell- Part 1 
+ - [ :white_check_mark: ] Dia 2: Unix & Shell- Part 2
  
 ## Seção 2: Git & GitHub
  - [ ] Dia 1: O que é e para que serve?
